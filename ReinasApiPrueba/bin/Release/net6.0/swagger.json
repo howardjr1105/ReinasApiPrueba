@@ -1,0 +1,374 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "ReinasApiPrueba, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Auth/authenticate": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "consumes": [
+          "application/json-patch+json",
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/LoginModel"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Participantes": {
+      "get": {
+        "tags": [
+          "Participantes"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Participantes"
+        ],
+        "consumes": [
+          "application/json-patch+json",
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/Participante"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/Participante"
+            }
+          }
+        }
+      }
+    },
+    "/api/Participantes/{id}": {
+      "get": {
+        "tags": [
+          "Participantes"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/Participante"
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Participantes"
+        ],
+        "consumes": [
+          "application/json-patch+json",
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/Participante"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Participantes"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Ronda": {
+      "get": {
+        "tags": [
+          "Ronda"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Ronda"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Votacion": {
+      "get": {
+        "tags": [
+          "Votacion"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Votacion"
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Votacion"
+        ],
+        "consumes": [
+          "application/json-patch+json",
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/Votacion"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/Votacion"
+            }
+          }
+        }
+      }
+    },
+    "/api/Votacion/{id}": {
+      "put": {
+        "tags": [
+          "Votacion"
+        ],
+        "consumes": [
+          "application/json-patch+json",
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/Votacion"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "LoginModel": {
+      "type": "object",
+      "properties": {
+        "correo": {
+          "type": "string"
+        },
+        "contraseña": {
+          "type": "string"
+        }
+      }
+    },
+    "Participante": {
+      "required": [
+        "biografia",
+        "departamento",
+        "edad",
+        "estatura",
+        "nombre",
+        "peso"
+      ],
+      "type": "object",
+      "properties": {
+        "participanteId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "nombre": {
+          "maxLength": 100,
+          "type": "string"
+        },
+        "edad": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "departamento": {
+          "maxLength": 100,
+          "type": "string"
+        },
+        "peso": {
+          "format": "double",
+          "maximum": 999,99,
+          "minimum": 0,
+          "type": "number"
+        },
+        "estatura": {
+          "format": "double",
+          "maximum": 999,99,
+          "minimum": 0,
+          "type": "number"
+        },
+        "biografia": {
+          "type": "string"
+        },
+        "estado": {
+          "type": "boolean"
+        },
+        "img": {
+          "type": "string"
+        }
+      }
+    },
+    "Ronda": {
+      "type": "object",
+      "properties": {
+        "ronda_ID": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "nombre": {
+          "type": "string"
+        }
+      }
+    },
+    "Votacion": {
+      "type": "object",
+      "properties": {
+        "voto_ID": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "usuario_ID": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "participante_ID": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "ronda_ID": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "puntuacion": {
+          "format": "int32",
+          "type": "integer"
+        }
+      }
+    }
+  }
+}

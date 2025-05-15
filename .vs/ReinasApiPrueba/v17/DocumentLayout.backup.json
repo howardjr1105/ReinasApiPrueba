@@ -1,0 +1,265 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ReinasApiPrueba\\ReinasApiPrueba\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|d:\\reinasapiprueba\\reinasapiprueba\\reinasapiprueba\\controllers\\promedioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|solutionrelative:reinasapiprueba\\controllers\\promedioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|d:\\reinasapiprueba\\reinasapiprueba\\reinasapiprueba\\controllers\\participantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|solutionrelative:reinasapiprueba\\controllers\\participantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|d:\\reinasapiprueba\\reinasapiprueba\\reinasapiprueba\\models\\participantepromedio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|solutionrelative:reinasapiprueba\\models\\participantepromedio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|d:\\reinasapiprueba\\reinasapiprueba\\reinasapiprueba\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|solutionrelative:reinasapiprueba\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|d:\\reinasapiprueba\\reinasapiprueba\\reinasapiprueba\\models\\votacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|solutionrelative:reinasapiprueba\\models\\votacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|d:\\reinasapiprueba\\reinasapiprueba\\reinasapiprueba\\controllers\\votacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|solutionrelative:reinasapiprueba\\controllers\\votacioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|d:\\reinasapiprueba\\reinasapiprueba\\reinasapiprueba\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|solutionrelative:reinasapiprueba\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|d:\\reinasapiprueba\\reinasapiprueba\\reinasapiprueba\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|solutionrelative:reinasapiprueba\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|d:\\reinasapiprueba\\reinasapiprueba\\reinasapiprueba\\notificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|solutionrelative:reinasapiprueba\\notificationhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|d:\\reinasapiprueba\\reinasapiprueba\\reinasapiprueba\\models\\ronda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|solutionrelative:reinasapiprueba\\models\\ronda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|d:\\reinasapiprueba\\reinasapiprueba\\reinasapiprueba\\controllers\\rondacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|solutionrelative:reinasapiprueba\\controllers\\rondacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|d:\\reinasapiprueba\\reinasapiprueba\\reinasapiprueba\\models\\participante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|solutionrelative:reinasapiprueba\\models\\participante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|d:\\reinasapiprueba\\reinasapiprueba\\reinasapiprueba\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|solutionrelative:reinasapiprueba\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|d:\\reinasapiprueba\\reinasapiprueba\\reinasapiprueba\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|solutionrelative:reinasapiprueba\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|d:\\reinasapiprueba\\reinasapiprueba\\reinasapiprueba\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|solutionrelative:reinasapiprueba\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Ronda.cs",
+              "DocumentMoniker": "D:\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba\\Models\\Ronda.cs",
+              "RelativeDocumentMoniker": "ReinasApiPrueba\\Models\\Ronda.cs",
+              "ToolTip": "D:\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba\\Models\\Ronda.cs",
+              "RelativeToolTip": "ReinasApiPrueba\\Models\\Ronda.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T15:07:01.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VotacionController.cs",
+              "DocumentMoniker": "D:\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba\\Controllers\\VotacionController.cs",
+              "RelativeDocumentMoniker": "ReinasApiPrueba\\Controllers\\VotacionController.cs",
+              "ToolTip": "D:\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba\\Controllers\\VotacionController.cs",
+              "RelativeToolTip": "ReinasApiPrueba\\Controllers\\VotacionController.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAgwIQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T15:07:01.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Votacion.cs",
+              "DocumentMoniker": "D:\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba\\Models\\Votacion.cs",
+              "RelativeDocumentMoniker": "ReinasApiPrueba\\Models\\Votacion.cs",
+              "ToolTip": "D:\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba\\Models\\Votacion.cs",
+              "RelativeToolTip": "ReinasApiPrueba\\Models\\Votacion.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAUwBoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T15:07:01.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NotificationHub.cs",
+              "DocumentMoniker": "D:\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba\\NotificationHub.cs",
+              "RelativeDocumentMoniker": "ReinasApiPrueba\\NotificationHub.cs",
+              "ToolTip": "D:\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba\\NotificationHub.cs",
+              "RelativeToolTip": "ReinasApiPrueba\\NotificationHub.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T21:32:09.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba\\Program.cs",
+              "RelativeDocumentMoniker": "ReinasApiPrueba\\Program.cs",
+              "ToolTip": "D:\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba\\Program.cs",
+              "RelativeToolTip": "ReinasApiPrueba\\Program.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAuwEoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T15:07:01.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ReinasApiPrueba\\Context\\AppDbContext.cs",
+              "ToolTip": "D:\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "ReinasApiPrueba\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAADwvxUAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T15:07:01.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba\\appsettings.json",
+              "RelativeDocumentMoniker": "ReinasApiPrueba\\appsettings.json",
+              "ToolTip": "D:\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba\\appsettings.json",
+              "RelativeToolTip": "ReinasApiPrueba\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-12T15:07:01.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RondaController.cs",
+              "DocumentMoniker": "D:\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba\\Controllers\\RondaController.cs",
+              "RelativeDocumentMoniker": "ReinasApiPrueba\\Controllers\\RondaController.cs",
+              "ToolTip": "D:\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba\\Controllers\\RondaController.cs",
+              "RelativeToolTip": "ReinasApiPrueba\\Controllers\\RondaController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAcwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T15:07:01.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ParticipantePromedio.cs",
+              "DocumentMoniker": "D:\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba\\Models\\ParticipantePromedio.cs",
+              "RelativeDocumentMoniker": "ReinasApiPrueba\\Models\\ParticipantePromedio.cs",
+              "ToolTip": "D:\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba\\Models\\ParticipantePromedio.cs",
+              "RelativeToolTip": "ReinasApiPrueba\\Models\\ParticipantePromedio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T15:07:01.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PromediosController.cs",
+              "DocumentMoniker": "D:\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba\\Controllers\\PromediosController.cs",
+              "RelativeDocumentMoniker": "ReinasApiPrueba\\Controllers\\PromediosController.cs",
+              "ToolTip": "D:\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba\\Controllers\\PromediosController.cs",
+              "RelativeToolTip": "ReinasApiPrueba\\Controllers\\PromediosController.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAcwF4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T15:07:01.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Participante.cs",
+              "DocumentMoniker": "D:\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba\\Models\\Participante.cs",
+              "RelativeDocumentMoniker": "ReinasApiPrueba\\Models\\Participante.cs",
+              "ToolTip": "D:\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba\\Models\\Participante.cs",
+              "RelativeToolTip": "ReinasApiPrueba\\Models\\Participante.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAwwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T15:07:01.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ParticipantesController.cs",
+              "DocumentMoniker": "D:\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba\\Controllers\\ParticipantesController.cs",
+              "RelativeDocumentMoniker": "ReinasApiPrueba\\Controllers\\ParticipantesController.cs",
+              "ToolTip": "D:\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba\\Controllers\\ParticipantesController.cs",
+              "RelativeToolTip": "ReinasApiPrueba\\Controllers\\ParticipantesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T15:07:01.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ReinasApiPrueba\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ReinasApiPrueba\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAuwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T15:07:01.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "D:\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "ReinasApiPrueba\\Models\\Usuario.cs",
+              "ToolTip": "D:\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba\\Models\\Usuario.cs",
+              "RelativeToolTip": "ReinasApiPrueba\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T15:07:01.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ReinasApiPrueba\\appsettings.Development.json",
+              "ToolTip": "D:\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba\\appsettings.Development.json",
+              "RelativeToolTip": "ReinasApiPrueba\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-12T15:07:01.479Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

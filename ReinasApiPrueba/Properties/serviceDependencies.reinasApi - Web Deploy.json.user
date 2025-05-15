@@ -1,0 +1,30 @@
+{
+  "dependencies": {},
+  "parameters": {
+    "reinasApi.resourceGroupName": {
+      "Name": "reinasApi.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "ReinasNiacargua"
+    },
+    "reinasApi.resourceGroupLocation": {
+      "Name": "reinasApi.resourceGroupLocation",
+      "Type": null,
+      "Value": "eastus"
+    },
+    "subscriptionId": {
+      "Name": "subscriptionId",
+      "Type": "subscription",
+      "Value": "166048db-628e-45bf-b5e4-2f3e7cf60413"
+    },
+    "reinasApi.resourceName": {
+      "Name": "reinasApi.resourceName",
+      "Type": null,
+      "Value": "reinasApi"
+    },
+    "reinasApi.subscriptionId": {
+      "Name": "reinasApi.subscriptionId",
+      "Type": "subscription",
+      "Value": "166048db-628e-45bf-b5e4-2f3e7cf60413"
+    }
+  }
+}
