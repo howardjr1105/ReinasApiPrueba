@@ -11438,23 +11438,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HowardEmilioSuarezCe\\.nuget\\packages\\": {},
+    "C:\\Users\\Abel Marin\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba.csproj",
+      "projectUniqueName": "C:\\Users\\Abel Marin\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba.csproj",
       "projectName": "ReinasApiPrueba",
-      "projectPath": "D:\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba.csproj",
-      "packagesPath": "C:\\Users\\HowardEmilioSuarezCe\\.nuget\\packages\\",
-      "outputPath": "D:\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba\\obj\\",
+      "projectPath": "C:\\Users\\Abel Marin\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba.csproj",
+      "packagesPath": "C:\\Users\\Abel Marin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Abel Marin\\ReinasApiPrueba\\ReinasApiPrueba\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\HowardEmilioSuarezCe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Abel Marin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -11481,7 +11481,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net6.0": {
@@ -11533,6 +11533,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.Net.Sdk.Compilers.Toolset",
+            "version": "[9.0.304, 9.0.304]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -11541,7 +11547,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }
