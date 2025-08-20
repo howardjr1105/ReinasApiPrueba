@@ -1,0 +1,16 @@
+# Archivos de Visual Studio
+.vs/
+*.user
+*.suo
+
+# Compilados
+bin/
+obj/
+
+# Archivos de depuración
+*.log
+
+# Configuración temporal
+*.dbmdl
+*.jfm
+*.cache
