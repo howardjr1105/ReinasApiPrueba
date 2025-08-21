@@ -12,7 +12,7 @@
         [Required]
         [MaxLength(100)]
         [Column("email")]
-        public string Correo { get; set; }
+        public string? Correo { get; set; }
 
         [Required]
         [MaxLength(100)]
