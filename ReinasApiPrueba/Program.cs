@@ -23,7 +23,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowSpecificOrigin",
         policy =>
         {
-            policy.WithOrigins("http://localhost:5173") // Cambia esto por el origen permitido
+            policy.WithOrigins("http://localhost:5173","https://reinasnicaragua2025.onrender.com") // Cambia esto por el origen permitido
                   .AllowAnyHeader()
                   .AllowAnyMethod()
                   .AllowCredentials();
@@ -62,12 +62,12 @@ app.UseCors("AllowSpecificOrigin");
 
 app.UseAuthorization();
 
-app.UseRouting(); // Asegúrate de que esté antes de mapear los endpoints
+app.UseRouting(); // Asegï¿½rate de que estï¿½ antes de mapear los endpoints
 
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllers();
-    endpoints.MapHub<NotificationHub>("/notificationHub"); // Aquí mapeas el Hub de SignalR
+    endpoints.MapHub<NotificationHub>("/notificationHub"); // Aquï¿½ mapeas el Hub de SignalR
 });
 
 
