@@ -73,7 +73,7 @@ namespace ReinasApiPrueba.Controllers
             {
                 try
                 {
-                    // 🔍 Verificar si ya existe un voto en esta ronda para el usuario
+                    // Verificar si ya existe un voto en esta ronda para el usuario
                     var votoExistente = await _context.votacions
                         .FirstOrDefaultAsync(v => v.Usuario_ID == dto.Usuario_ID
                                                && v.Participante_ID == dto.Participante_ID
@@ -124,7 +124,9 @@ namespace ReinasApiPrueba.Controllers
                         });
                     }
 
-                    return Conflict(new GenricResponse
+                    // Manejo de error genérico si es que no se detecta en codigo pero si en la BD
+
+                    return StatusCode(StatusCodes.Status500InternalServerError, new GenricResponse
                     {
                         success = false,
                         Message = "Error al guardar el voto: " + ex.InnerException?.Message ?? ex.Message,
@@ -143,9 +145,6 @@ namespace ReinasApiPrueba.Controllers
                 }
             }
         }
-
-
-
 
         private bool VotacionExists(int id)
         {
