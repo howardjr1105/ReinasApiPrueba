@@ -168,6 +168,83 @@ public class PromediosController : ControllerBase
 
         return File(pdfBytes, "application/pdf", $"ReporteRonda_{ronda_id}.pdf");
     }
+    [HttpGet("ReportePDFTop10")]
+    public async Task<IActionResult> GenerarReportePDFTop10()
+    {
+        var resultados = await EjecutarProcedimientoPromedios("Calcular_Promedios", null);
+
+        if (resultados == null || !resultados.Any())
+        {
+            return NotFound(new
+            {
+                success = false,
+                message = "No se encontraron resultados para generar el reporte del Top 10."
+            });
+        }
+
+        // Crear documento PDF
+        var doc = Document.Create(container =>
+        {
+            container.Page(page =>
+            {
+                page.Size(PageSizes.A4);
+                page.Margin(30);
+                page.PageColor(Colors.White);
+                page.DefaultTextStyle(x => x.FontSize(12));
+
+                // Encabezado
+                page.Header().Row(row =>
+                {
+                    row.RelativeColumn().AlignCenter().Text("Reporte de Participantes - Top 10")
+                       .SemiBold().FontSize(18).FontColor(Colors.Green.Medium);
+                });
+
+                // Contenido
+                page.Content().Table(table =>
+                {
+                    // Definir columnas
+                    table.ColumnsDefinition(columns =>
+                    {
+                        columns.ConstantColumn(50);   // Rango
+                        columns.RelativeColumn(2);    // Nombre
+                        columns.RelativeColumn(2);    // Departamento
+                        columns.RelativeColumn(1);    // PuntajeFinal
+                    });
+
+                    // Encabezados
+                    table.Header(header =>
+                    {
+                        header.Cell().Element(c => c.DefaultTextStyle(x => x.SemiBold()).PaddingVertical(5).Background(Colors.Grey.Lighten2)).Text("Rango");
+                        header.Cell().Element(c => c.DefaultTextStyle(x => x.SemiBold()).PaddingVertical(5).Background(Colors.Grey.Lighten2)).Text("Nombre");
+                        header.Cell().Element(c => c.DefaultTextStyle(x => x.SemiBold()).PaddingVertical(5).Background(Colors.Grey.Lighten2)).Text("Departamento");
+                        header.Cell().Element(c => c.DefaultTextStyle(x => x.SemiBold()).PaddingVertical(5).Background(Colors.Grey.Lighten2)).Text("Puntaje");
+                    });
+
+                    // Filas dinámicas
+                    foreach (var r in resultados.OrderBy(x => x.Rango))
+                    {
+                        table.Cell().Element(c => c.BorderBottom(1).BorderColor(Colors.Grey.Lighten2).PaddingVertical(5)).Text(r.Rango.ToString());
+                        table.Cell().Element(c => c.BorderBottom(1).BorderColor(Colors.Grey.Lighten2).PaddingVertical(5)).Text(r.Nombre);
+                        table.Cell().Element(c => c.BorderBottom(1).BorderColor(Colors.Grey.Lighten2).PaddingVertical(5)).Text(r.Departamento);
+                        table.Cell().Element(c => c.BorderBottom(1).BorderColor(Colors.Grey.Lighten2).PaddingVertical(5)).Text(r.PuntajeFinal.ToString("0.00"));
+                    }
+                });
+
+                // Pie de página
+                page.Footer().AlignCenter().Text(x =>
+                {
+                    x.Span("Generado el ").FontSize(10);
+                    x.Span(DateTime.Now.ToString("dd/MM/yyyy HH:mm")).FontSize(10).FontColor(Colors.Grey.Medium);
+                });
+            });
+        });
+
+        // Generar PDF en memoria
+        byte[] pdfBytes = doc.GeneratePdf();
+
+        return File(pdfBytes, "application/pdf", $"ReporteTop10.pdf");
+    }
+
 
     // Función auxiliar para ejecutar procedimientos almacenados
     private async Task<List<ParticipantePromedio>> EjecutarProcedimientoPromedios(string procedimiento, int? ronda_id)

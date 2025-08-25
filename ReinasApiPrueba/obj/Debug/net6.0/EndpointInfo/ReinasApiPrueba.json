@@ -329,6 +329,41 @@
         }
       }
     },
+    "/api/Promedios/ReportePDF/{ronda_id}": {
+      "get": {
+        "tags": [
+          "Promedios"
+        ],
+        "parameters": [
+          {
+            "name": "ronda_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Promedios/ReportePDFTop10": {
+      "get": {
+        "tags": [
+          "Promedios"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Ronda": {
       "get": {
         "tags": [
@@ -513,10 +548,12 @@
             "type": "boolean"
           },
           "message": {
-            "type": "string"
+            "type": "string",
+            "nullable": true
           },
           "data": {
-            "type": "object"
+            "type": "object",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -539,6 +576,7 @@
           "departamento",
           "edad",
           "estatura",
+          "img",
           "nombre",
           "peso"
         ],

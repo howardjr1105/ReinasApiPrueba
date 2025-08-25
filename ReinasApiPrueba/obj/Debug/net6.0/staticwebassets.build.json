@@ -1,11 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "xjIACJMVRIA1HB8P1YGNUxyAxTXwzdB+Sq3Pdje+r28=",
-  "Source": "ReinasApiPrueba",
-  "BasePath": "_content/ReinasApiPrueba",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
-}
+{"Version":1,"Hash":"MQb9LgIhGp7Q3eT0ypaKgkj/VMIGf5MRv99QBgS+VzY=","Source":"ReinasApiPrueba","BasePath":"_content/ReinasApiPrueba","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

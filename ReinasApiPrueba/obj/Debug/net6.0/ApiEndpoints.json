@@ -211,6 +211,32 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "PromediosController",
+    "Method": "GenerarReportePDF",
+    "RelativePath": "api/Promedios/ReportePDF/{ronda_id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ronda_id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PromediosController",
+    "Method": "GenerarReportePDFTop10",
+    "RelativePath": "api/Promedios/ReportePDFTop10",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ReinasApiPrueba.Controllers.RondaController",
     "Method": "GetRondas",
     "RelativePath": "api/Ronda",
