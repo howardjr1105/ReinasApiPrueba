@@ -11438,23 +11438,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Abel Marin\\.nuget\\packages\\": {},
+    "C:\\Users\\ismaa\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Abel Marin\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba.csproj",
+      "projectUniqueName": "C:\\Users\\ismaa\\OneDrive\\Escritorio\\ReinasNicaragua\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba.csproj",
       "projectName": "ReinasApiPrueba",
-      "projectPath": "C:\\Users\\Abel Marin\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba.csproj",
-      "packagesPath": "C:\\Users\\Abel Marin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Abel Marin\\ReinasApiPrueba\\ReinasApiPrueba\\obj\\",
+      "projectPath": "C:\\Users\\ismaa\\OneDrive\\Escritorio\\ReinasNicaragua\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba.csproj",
+      "packagesPath": "C:\\Users\\ismaa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ismaa\\OneDrive\\Escritorio\\ReinasNicaragua\\ReinasApiPrueba\\ReinasApiPrueba\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Abel Marin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ismaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -11463,6 +11463,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11475,13 +11476,7 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.300"
+      }
     },
     "frameworks": {
       "net6.0": {
@@ -11535,8 +11530,20 @@
         "warn": true,
         "downloadDependencies": [
           {
-            "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-            "version": "[9.0.304, 9.0.304]"
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
           }
         ],
         "frameworkReferences": {
@@ -11547,7 +11554,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.413\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -12,7 +12,7 @@
         [Required]
         [MaxLength(100)]
         [Column("nombre")]
-        public string Nombre { get; set; }
+        public string? Nombre { get; set; }
 
         [Required]
         [Column("edad")]
@@ -21,7 +21,7 @@
         [Required]
         [MaxLength(100)]
         [Column("departamento")]
-        public string Departamento { get; set; }
+        public string? Departamento { get; set; }
 
         [Required]
         [Column("peso")]
@@ -35,11 +35,12 @@
 
         [Required]
         [Column("biografia")]
-        public string Biografia { get; set; }
+        public string? Biografia { get; set; }
 
         [Column("Estado_Participante")]
         public bool Estado { get; set; }
 
+        [Required]
         [Column("Imagen")]
         public String Img { get; set; }
     }
