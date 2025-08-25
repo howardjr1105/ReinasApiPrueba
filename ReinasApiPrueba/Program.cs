@@ -1,8 +1,11 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
+using QuestPDF.Infrastructure;
 using ReinasApiPrueba;
 
 var builder = WebApplication.CreateBuilder(args);
+
+QuestPDF.Settings.License = LicenseType.Community;
 
 builder.Services.AddSwaggerGen(c =>
 {

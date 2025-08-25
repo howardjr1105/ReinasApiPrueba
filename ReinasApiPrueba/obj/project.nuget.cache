@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "q6kX7qzlL+r1VwgaYaY9zuDCd3beIxxJUPEAAQBDb9EPwx+D91sigk5/wtiJdBI8qLnYsnxF3Icz2K+ck9/KOw==",
+  "dgSpecHash": "E67L8cbrtbPozBBc5GUUgblZ35JNslFdKw5HVk+zXguenpv2mU0ax7QdXu2Sg+yEEubW3nDG4TU/C/oIqQWwPQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\ismaa\\OneDrive\\Escritorio\\ReinasNicaragua\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba.csproj",
   "expectedPackageFiles": [
@@ -137,6 +137,7 @@
     "C:\\Users\\ismaa\\.nuget\\packages\\nuget.projectmodel\\6.6.1\\nuget.projectmodel.6.6.1.nupkg.sha512",
     "C:\\Users\\ismaa\\.nuget\\packages\\nuget.protocol\\6.6.1\\nuget.protocol.6.6.1.nupkg.sha512",
     "C:\\Users\\ismaa\\.nuget\\packages\\nuget.versioning\\6.6.1\\nuget.versioning.6.6.1.nupkg.sha512",
+    "C:\\Users\\ismaa\\.nuget\\packages\\questpdf\\2025.7.0\\questpdf.2025.7.0.nupkg.sha512",
     "C:\\Users\\ismaa\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\ismaa\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\ismaa\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
