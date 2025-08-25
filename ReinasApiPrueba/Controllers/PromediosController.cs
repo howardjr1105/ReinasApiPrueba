@@ -1,8 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using QuestPDF.Fluent;
+using QuestPDF.Helpers;
 using ReinasApiPrueba.Models;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Drawing;
 using System.Threading.Tasks;
 
 [Route("api/[controller]")]
@@ -84,6 +88,85 @@ public class PromediosController : ControllerBase
             message = "Ganadora calculada exitosamente",
             data = resultados
         });
+    }
+
+    [HttpGet("ReportePDF/{ronda_id}")]
+    public async Task<IActionResult> GenerarReportePDF(int ronda_id)
+    {
+        var resultados = await EjecutarProcedimientoPromedios("Promedio_ronda", ronda_id);
+
+        if (resultados == null || !resultados.Any())
+        {
+            return NotFound(new
+            {
+                success = false,
+                message = "No se encontraron resultados para generar el reporte."
+            });
+        }
+
+        // Creamos el documento PDF
+        var doc = Document.Create(container =>
+        {
+            container.Page(page =>
+            {
+                page.Size(PageSizes.A4);
+                page.Margin(30);
+                page.PageColor(Colors.White);
+                page.DefaultTextStyle(x => x.FontSize(12));
+
+                // Encabezado
+                page.Header().Row(row =>
+                {
+                    row.RelativeColumn().AlignCenter().Text($"Reporte de Promedios - Ronda {ronda_id}")
+                       .SemiBold().FontSize(18).FontColor(Colors.Blue.Medium);
+                });
+
+                // Contenido
+                page.Content().Table(table =>
+                {
+                    // Definir columnas
+                    table.ColumnsDefinition(columns =>
+                    {
+                        columns.ConstantColumn(50);   // Rango
+                        columns.RelativeColumn(2);    // Nombre
+                        columns.RelativeColumn(2);    // Departamento
+                        columns.RelativeColumn(1);    // PuntajeFinal
+                    });
+
+                    // Encabezados
+                    table.Header(header =>
+                    {
+                        header.Cell().Element(c => c.DefaultTextStyle(x => x.SemiBold()).PaddingVertical(5).Background(Colors.Grey.Lighten2)).Text("Rango");
+                        header.Cell().Element(c => c.DefaultTextStyle(x => x.SemiBold()).PaddingVertical(5).Background(Colors.Grey.Lighten2)).Text("Nombre");
+                        header.Cell().Element(c => c.DefaultTextStyle(x => x.SemiBold()).PaddingVertical(5).Background(Colors.Grey.Lighten2)).Text("Departamento");
+                        header.Cell().Element(c => c.DefaultTextStyle(x => x.SemiBold()).PaddingVertical(5).Background(Colors.Grey.Lighten2)).Text("Puntaje");
+
+                    });
+
+                    // Filas dinámicas
+                    foreach (var r in resultados.OrderBy(x => x.Rango))
+                    {
+                        table.Cell().Element(c => c.BorderBottom(1).BorderColor(Colors.Grey.Lighten2).PaddingVertical(5)).Text(r.Rango.ToString());
+                        table.Cell().Element(c => c.BorderBottom(1).BorderColor(Colors.Grey.Lighten2).PaddingVertical(5)).Text(r.Nombre);
+                        table.Cell().Element(c => c.BorderBottom(1).BorderColor(Colors.Grey.Lighten2).PaddingVertical(5)).Text(r.Departamento);
+                        table.Cell().Element(c => c.BorderBottom(1).BorderColor(Colors.Grey.Lighten2).PaddingVertical(5)).Text(r.PuntajeFinal.ToString("0.00"));
+
+                    }
+                });
+
+                // Pie de página
+                page.Footer().AlignCenter().Text(x =>
+                {
+                    x.Span("Generado el ").FontSize(10);
+                    x.Span(DateTime.Now.ToString("dd/MM/yyyy HH:mm")).FontSize(10).FontColor(Colors.Grey.Medium);
+                });
+            });
+        });
+
+        // Generar PDF en memoria
+        byte[] pdfBytes = doc.GeneratePdf();
+
+        return File(pdfBytes, "application/pdf", $"ReporteRonda_{ronda_id}.pdf");
     }
 
     // Función auxiliar para ejecutar procedimientos almacenados
