@@ -31,7 +31,7 @@
             }
 
             // Si no se encontró el usuario, devolver false
-            return  new GenricResponse() { success = true, Message = "Erro Autenticado Usuario", Data = login };
+            return  new GenricResponse() { success = true, Message = "Error Autenticado Usuario", Data = login };
         }
     }
 
