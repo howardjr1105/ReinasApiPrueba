@@ -11667,23 +11667,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Abel Marin\\.nuget\\packages\\": {},
+    "C:\\Users\\HowardEmilioSuarezCe\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Abel Marin\\Desktop\\Nueva carpeta\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba.csproj",
+      "projectUniqueName": "D:\\ReinasApi\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba.csproj",
       "projectName": "ReinasApiPrueba",
-      "projectPath": "C:\\Users\\Abel Marin\\Desktop\\Nueva carpeta\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba.csproj",
-      "packagesPath": "C:\\Users\\Abel Marin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Abel Marin\\Desktop\\Nueva carpeta\\ReinasApiPrueba\\ReinasApiPrueba\\obj\\",
+      "projectPath": "D:\\ReinasApi\\ReinasApiPrueba\\ReinasApiPrueba\\ReinasApiPrueba.csproj",
+      "packagesPath": "C:\\Users\\HowardEmilioSuarezCe\\.nuget\\packages\\",
+      "outputPath": "D:\\ReinasApi\\ReinasApiPrueba\\ReinasApiPrueba\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Abel Marin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HowardEmilioSuarezCe\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -11766,12 +11766,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.Net.Sdk.Compilers.Toolset",
-            "version": "[9.0.304, 9.0.304]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
