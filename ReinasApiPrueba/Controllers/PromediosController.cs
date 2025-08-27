@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using QuestPDF.Fluent;
 using QuestPDF.Helpers;
 using ReinasApiPrueba.Models;
+using QuestPDF.Infrastructure;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;
@@ -244,6 +245,136 @@ public class PromediosController : ControllerBase
 
         return File(pdfBytes, "application/pdf", $"ReporteTop10.pdf");
     }
+    [HttpGet("ReportePDFFinalistas")]
+    public async Task<IActionResult> GenerarReportePDFFinalistas()
+    {
+        // 1) Ejecutar el SP y traer resultados
+        var resultados = await _context.PromediosFinalResultados
+            .FromSqlRaw("EXEC Calcular_Promedios_Final")
+            .ToListAsync();
+
+        if (resultados == null || resultados.Count < 3)
+        {
+            return NotFound(new
+            {
+                success = false,
+                message = "No hay suficientes resultados para generar el reporte (se requieren al menos 3)."
+            });
+        }
+
+        // 2) Tomar Reina (Rango=1) y Princesas (Rango=2 y 3)
+        var ganadora = resultados.FirstOrDefault(x => x.Rango == 1);
+        var princesas = resultados.Where(x => x.Rango == 2 || x.Rango == 3)
+                                  .OrderBy(x => x.Rango)
+                                  .ToList();
+
+        // 3) Construir PDF
+        var doc = Document.Create(container =>
+        {
+            container.Page(page =>
+            {
+                page.Size(PageSizes.A4);
+                page.Margin(30);
+                page.PageColor(Colors.White);
+                page.DefaultTextStyle(x => x.FontSize(12));
+
+                // Encabezado
+                page.Header().Row(row =>
+                {
+                    row.RelativeColumn().AlignCenter()
+                       .Text("Reporte Final – Reina y Princesas")
+                       .SemiBold().FontSize(18).FontColor(Colors.Blue.Medium);
+                });
+
+                // Contenido
+                page.Content().Column(col =>
+                {
+                    // Bloque Reina (solo 3 campos)
+                    if (ganadora != null)
+                    {
+                        col.Item().Element(c => c.Border(1)
+                                                  .BorderColor(Colors.Amber.Medium)
+                                                  .Background(Colors.Amber.Lighten4)
+                                                  .Padding(12))
+                                  .Column(block =>
+                                  {
+                                      block.Item().AlignCenter()
+                                      .Text("👑 Reina del Concurso")
+                                      .FontSize(16).SemiBold().FontColor(Colors.Amber.Darken2);
+
+                                      block.Item().Text($"Nombre: {ganadora.Nombre}").FontSize(14).SemiBold();
+                                      block.Item().Text($"Departamento: {ganadora.Departamento}");
+                                      block.Item().Text($"Puntaje Final: {ganadora.PuntajeFinal:0.00}");
+                                  });
+                    }
+
+                    col.Item().PaddingVertical(14);
+
+                    // Tabla Princesas (solo 3 columnas)
+                    if (princesas.Any())
+                    {
+                        col.Item().Text("🤍 Princesas").FontSize(14).SemiBold().FontColor(Colors.Blue.Medium);
+
+                        col.Item().Table(table =>
+                        {
+                            // Definir columnas: Nombre, Departamento, Puntaje
+                            table.ColumnsDefinition(columns =>
+                            {
+                                columns.RelativeColumn(2); // Nombre
+                                columns.RelativeColumn(2); // Departamento
+                                columns.RelativeColumn(1); // Puntaje
+                            });
+
+                            // Encabezados con fondo (usar Element para Background)
+                            table.Header(header =>
+                            {
+                                header.Cell().Element(c => c.DefaultTextStyle(x => x.SemiBold())
+                                                             .PaddingVertical(5)
+                                                             .Background(Colors.Grey.Lighten2))
+                                             .Text("Nombre");
+
+                                header.Cell().Element(c => c.DefaultTextStyle(x => x.SemiBold())
+                                                             .PaddingVertical(5)
+                                                             .Background(Colors.Grey.Lighten2))
+                                             .Text("Departamento");
+
+                                header.Cell().Element(c => c.DefaultTextStyle(x => x.SemiBold())
+                                                             .PaddingVertical(5)
+                                                             .Background(Colors.Grey.Lighten2))
+                                             .Text("Puntaje");
+                            });
+
+                            // Filas dinámicas
+                            foreach (var p in princesas)
+                            {
+                                table.Cell().Element(c => c.BorderBottom(1).BorderColor(Colors.Grey.Lighten2).PaddingVertical(5))
+                                            .Text(p.Nombre);
+
+                                table.Cell().Element(c => c.BorderBottom(1).BorderColor(Colors.Grey.Lighten2).PaddingVertical(5))
+                                            .Text(p.Departamento);
+
+                                table.Cell().Element(c => c.BorderBottom(1).BorderColor(Colors.Grey.Lighten2).PaddingVertical(5))
+                                            .Text(p.PuntajeFinal.ToString("0.00"));
+                            }
+                        });
+                    }
+                });
+
+                // Pie de página
+                page.Footer().AlignCenter().Text(x =>
+                {
+                    x.Span("Generado el ").FontSize(10);
+                    x.Span(DateTime.Now.ToString("dd/MM/yyyy HH:mm")).FontSize(10).FontColor(Colors.Grey.Medium);
+                });
+            });
+        });
+
+        // 4) Devolver archivo
+        var pdfBytes = doc.GeneratePdf();
+        return File(pdfBytes, "application/pdf", "ReporteFinalistas.pdf");
+    }
+
+
 
 
     // Función auxiliar para ejecutar procedimientos almacenados

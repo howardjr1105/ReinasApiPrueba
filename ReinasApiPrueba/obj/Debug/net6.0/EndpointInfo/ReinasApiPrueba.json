@@ -364,6 +364,18 @@
         }
       }
     },
+    "/api/Promedios/ReportePDFFinalistas": {
+      "get": {
+        "tags": [
+          "Promedios"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Ronda": {
       "get": {
         "tags": [

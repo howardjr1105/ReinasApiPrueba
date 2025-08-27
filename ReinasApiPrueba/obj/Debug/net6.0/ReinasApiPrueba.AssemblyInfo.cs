@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReinasApiPrueba")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39b578a62b731f8dd37bbd5901557b96d5d59fce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d9393789556cb311ab457aa99a47d98cde4e6bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReinasApiPrueba")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReinasApiPrueba")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

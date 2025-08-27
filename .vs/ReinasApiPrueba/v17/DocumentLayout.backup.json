@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Abel Marin\\Desktop\\Nueva carpeta\\ReinasApiPrueba\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|c:\\users\\abel marin\\desktop\\nueva carpeta\\reinasapiprueba\\reinasapiprueba\\models\\promediosfinalresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|solutionrelative:reinasapiprueba\\models\\promediosfinalresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|c:\\users\\abel marin\\desktop\\nueva carpeta\\reinasapiprueba\\reinasapiprueba\\controllers\\promedioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|solutionrelative:reinasapiprueba\\controllers\\promedioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|c:\\users\\abel marin\\desktop\\nueva carpeta\\reinasapiprueba\\reinasapiprueba\\controllers\\participantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|solutionrelative:reinasapiprueba\\controllers\\participantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|c:\\users\\abel marin\\desktop\\nueva carpeta\\reinasapiprueba\\reinasapiprueba\\models\\participantepromedio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|solutionrelative:reinasapiprueba\\models\\participantepromedio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|c:\\users\\abel marin\\desktop\\nueva carpeta\\reinasapiprueba\\reinasapiprueba\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|solutionrelative:reinasapiprueba\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|c:\\users\\abel marin\\desktop\\nueva carpeta\\reinasapiprueba\\reinasapiprueba\\controllers\\rondacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,14 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|c:\\users\\abel marin\\desktop\\nueva carpeta\\reinasapiprueba\\reinasapiprueba\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|solutionrelative:reinasapiprueba\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|c:\\users\\abel marin\\desktop\\nueva carpeta\\reinasapiprueba\\reinasapiprueba\\models\\participantepromedio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|solutionrelative:reinasapiprueba\\models\\participantepromedio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|c:\\users\\abel marin\\desktop\\nueva carpeta\\reinasapiprueba\\reinasapiprueba\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|solutionrelative:reinasapiprueba\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|c:\\users\\abel marin\\desktop\\nueva carpeta\\reinasapiprueba\\reinasapiprueba\\models\\votacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,43 +74,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Abel Marin\\Desktop\\Nueva carpeta\\ReinasApiPrueba\\ReinasApiPrueba\\Program.cs",
-              "RelativeDocumentMoniker": "ReinasApiPrueba\\Program.cs",
-              "ToolTip": "C:\\Users\\Abel Marin\\Desktop\\Nueva carpeta\\ReinasApiPrueba\\ReinasApiPrueba\\Program.cs",
-              "RelativeToolTip": "ReinasApiPrueba\\Program.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAuwEoAAAAKAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "PromediosController.cs",
+              "DocumentMoniker": "C:\\Users\\Abel Marin\\Desktop\\Nueva carpeta\\ReinasApiPrueba\\ReinasApiPrueba\\Controllers\\PromediosController.cs",
+              "RelativeDocumentMoniker": "ReinasApiPrueba\\Controllers\\PromediosController.cs",
+              "ToolTip": "C:\\Users\\Abel Marin\\Desktop\\Nueva carpeta\\ReinasApiPrueba\\ReinasApiPrueba\\Controllers\\PromediosController.cs",
+              "RelativeToolTip": "ReinasApiPrueba\\Controllers\\PromediosController.cs",
+              "ViewState": "AgIAAHABAAAAAAAAAAAowHgBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T15:07:01.476Z"
+              "WhenOpened": "2025-05-12T15:07:01.447Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Abel Marin\\Desktop\\Nueva carpeta\\ReinasApiPrueba\\ReinasApiPrueba\\Context\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "ReinasApiPrueba\\Context\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Abel Marin\\Desktop\\Nueva carpeta\\ReinasApiPrueba\\ReinasApiPrueba\\Context\\AppDbContext.cs",
-              "RelativeToolTip": "ReinasApiPrueba\\Context\\AppDbContext.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAADwvxUAAAA/AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "PromediosFinalResult.cs",
+              "DocumentMoniker": "C:\\Users\\Abel Marin\\Desktop\\Nueva carpeta\\ReinasApiPrueba\\ReinasApiPrueba\\Models\\PromediosFinalResult.cs",
+              "RelativeDocumentMoniker": "ReinasApiPrueba\\Models\\PromediosFinalResult.cs",
+              "ToolTip": "C:\\Users\\Abel Marin\\Desktop\\Nueva carpeta\\ReinasApiPrueba\\ReinasApiPrueba\\Models\\PromediosFinalResult.cs",
+              "RelativeToolTip": "ReinasApiPrueba\\Models\\PromediosFinalResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T15:07:01.462Z"
+              "WhenOpened": "2025-08-27T00:58:47.948Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Abel Marin\\Desktop\\Nueva carpeta\\ReinasApiPrueba\\ReinasApiPrueba\\appsettings.json",
               "RelativeDocumentMoniker": "ReinasApiPrueba\\appsettings.json",
@@ -114,12 +116,11 @@
               "RelativeToolTip": "ReinasApiPrueba\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-12T15:07:01.471Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T15:07:01.471Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "RondaController.cs",
               "DocumentMoniker": "C:\\Users\\Abel Marin\\Desktop\\Nueva carpeta\\ReinasApiPrueba\\ReinasApiPrueba\\Controllers\\RondaController.cs",
               "RelativeDocumentMoniker": "ReinasApiPrueba\\Controllers\\RondaController.cs",
@@ -127,12 +128,11 @@
               "RelativeToolTip": "ReinasApiPrueba\\Controllers\\RondaController.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAQwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T15:07:01.491Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T15:07:01.491Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ParticipantesController.cs",
               "DocumentMoniker": "C:\\Users\\Abel Marin\\Desktop\\Nueva carpeta\\ReinasApiPrueba\\ReinasApiPrueba\\Controllers\\ParticipantesController.cs",
               "RelativeDocumentMoniker": "ReinasApiPrueba\\Controllers\\ParticipantesController.cs",
@@ -145,20 +145,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PromediosController.cs",
-              "DocumentMoniker": "C:\\Users\\Abel Marin\\Desktop\\Nueva carpeta\\ReinasApiPrueba\\ReinasApiPrueba\\Controllers\\PromediosController.cs",
-              "RelativeDocumentMoniker": "ReinasApiPrueba\\Controllers\\PromediosController.cs",
-              "ToolTip": "C:\\Users\\Abel Marin\\Desktop\\Nueva carpeta\\ReinasApiPrueba\\ReinasApiPrueba\\Controllers\\PromediosController.cs*",
-              "RelativeToolTip": "ReinasApiPrueba\\Controllers\\PromediosController.cs*",
-              "ViewState": "AgIAAOkAAAAAAAAAAAAswPYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ParticipantePromedio.cs",
+              "DocumentMoniker": "C:\\Users\\Abel Marin\\Desktop\\Nueva carpeta\\ReinasApiPrueba\\ReinasApiPrueba\\Models\\ParticipantePromedio.cs",
+              "RelativeDocumentMoniker": "ReinasApiPrueba\\Models\\ParticipantePromedio.cs",
+              "ToolTip": "C:\\Users\\Abel Marin\\Desktop\\Nueva carpeta\\ReinasApiPrueba\\ReinasApiPrueba\\Models\\ParticipantePromedio.cs",
+              "RelativeToolTip": "ReinasApiPrueba\\Models\\ParticipantePromedio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T15:07:01.447Z",
+              "WhenOpened": "2025-05-12T15:07:01.152Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Abel Marin\\Desktop\\Nueva carpeta\\ReinasApiPrueba\\ReinasApiPrueba\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ReinasApiPrueba\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Abel Marin\\Desktop\\Nueva carpeta\\ReinasApiPrueba\\ReinasApiPrueba\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "ReinasApiPrueba\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAwwBgAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T15:07:01.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "VotacionController.cs",
               "DocumentMoniker": "C:\\Users\\Abel Marin\\Desktop\\Nueva carpeta\\ReinasApiPrueba\\ReinasApiPrueba\\Controllers\\VotacionController.cs",
               "RelativeDocumentMoniker": "ReinasApiPrueba\\Controllers\\VotacionController.cs",
@@ -166,12 +179,23 @@
               "RelativeToolTip": "ReinasApiPrueba\\Controllers\\VotacionController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAIIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T15:07:01.486Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T15:07:01.486Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Abel Marin\\Desktop\\Nueva carpeta\\ReinasApiPrueba\\ReinasApiPrueba\\Program.cs",
+              "RelativeDocumentMoniker": "ReinasApiPrueba\\Program.cs",
+              "ToolTip": "C:\\Users\\Abel Marin\\Desktop\\Nueva carpeta\\ReinasApiPrueba\\ReinasApiPrueba\\Program.cs",
+              "RelativeToolTip": "ReinasApiPrueba\\Program.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAuwEoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T15:07:01.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "NotificationHub.cs",
               "DocumentMoniker": "C:\\Users\\Abel Marin\\Desktop\\Nueva carpeta\\ReinasApiPrueba\\ReinasApiPrueba\\NotificationHub.cs",
               "RelativeDocumentMoniker": "ReinasApiPrueba\\NotificationHub.cs",
@@ -183,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Votacion.cs",
               "DocumentMoniker": "C:\\Users\\Abel Marin\\Desktop\\Nueva carpeta\\ReinasApiPrueba\\ReinasApiPrueba\\Models\\Votacion.cs",
               "RelativeDocumentMoniker": "ReinasApiPrueba\\Models\\Votacion.cs",
@@ -195,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Ronda.cs",
               "DocumentMoniker": "C:\\Users\\Abel Marin\\Desktop\\Nueva carpeta\\ReinasApiPrueba\\ReinasApiPrueba\\Models\\Ronda.cs",
               "RelativeDocumentMoniker": "ReinasApiPrueba\\Models\\Ronda.cs",
@@ -207,19 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ParticipantePromedio.cs",
-              "DocumentMoniker": "C:\\Users\\Abel Marin\\Desktop\\Nueva carpeta\\ReinasApiPrueba\\ReinasApiPrueba\\Models\\ParticipantePromedio.cs",
-              "RelativeDocumentMoniker": "ReinasApiPrueba\\Models\\ParticipantePromedio.cs",
-              "ToolTip": "C:\\Users\\Abel Marin\\Desktop\\Nueva carpeta\\ReinasApiPrueba\\ReinasApiPrueba\\Models\\ParticipantePromedio.cs",
-              "RelativeToolTip": "ReinasApiPrueba\\Models\\ParticipantePromedio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T15:07:01.152Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Participante.cs",
               "DocumentMoniker": "C:\\Users\\Abel Marin\\Desktop\\Nueva carpeta\\ReinasApiPrueba\\ReinasApiPrueba\\Models\\Participante.cs",
               "RelativeDocumentMoniker": "ReinasApiPrueba\\Models\\Participante.cs",
@@ -231,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\Abel Marin\\Desktop\\Nueva carpeta\\ReinasApiPrueba\\ReinasApiPrueba\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "ReinasApiPrueba\\Controllers\\AuthController.cs",
@@ -243,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\Abel Marin\\Desktop\\Nueva carpeta\\ReinasApiPrueba\\ReinasApiPrueba\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "ReinasApiPrueba\\Models\\Usuario.cs",
@@ -255,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Abel Marin\\Desktop\\Nueva carpeta\\ReinasApiPrueba\\ReinasApiPrueba\\appsettings.Development.json",
               "RelativeDocumentMoniker": "ReinasApiPrueba\\appsettings.Development.json",

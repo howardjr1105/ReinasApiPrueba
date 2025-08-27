@@ -228,6 +228,16 @@
   },
   {
     "ContainingType": "PromediosController",
+    "Method": "GenerarReportePDFFinalistas",
+    "RelativePath": "api/Promedios/ReportePDFFinalistas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PromediosController",
     "Method": "GenerarReportePDFTop10",
     "RelativePath": "api/Promedios/ReportePDFTop10",
     "HttpMethod": "GET",
