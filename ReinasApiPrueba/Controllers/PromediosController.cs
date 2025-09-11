@@ -304,7 +304,7 @@ public class PromediosController : ControllerBase
 
                                       block.Item().Text($"Nombre: {ganadora.Nombre}").FontSize(14).SemiBold();
                                       block.Item().Text($"Departamento: {ganadora.Departamento}");
-                                      block.Item().Text($"Puntaje Final: {ganadora.PuntajeFinal:0.00}");
+                                     
                                   });
                     }
 
@@ -322,7 +322,7 @@ public class PromediosController : ControllerBase
                             {
                                 columns.RelativeColumn(2); // Nombre
                                 columns.RelativeColumn(2); // Departamento
-                                columns.RelativeColumn(1); // Puntaje
+                                
                             });
 
                             // Encabezados con fondo (usar Element para Background)
@@ -338,10 +338,8 @@ public class PromediosController : ControllerBase
                                                              .Background(Colors.Grey.Lighten2))
                                              .Text("Departamento");
 
-                                header.Cell().Element(c => c.DefaultTextStyle(x => x.SemiBold())
-                                                             .PaddingVertical(5)
-                                                             .Background(Colors.Grey.Lighten2))
-                                             .Text("Puntaje");
+                               
+                                             
                             });
 
                             // Filas dinámicas
@@ -353,8 +351,7 @@ public class PromediosController : ControllerBase
                                 table.Cell().Element(c => c.BorderBottom(1).BorderColor(Colors.Grey.Lighten2).PaddingVertical(5))
                                             .Text(p.Departamento);
 
-                                table.Cell().Element(c => c.BorderBottom(1).BorderColor(Colors.Grey.Lighten2).PaddingVertical(5))
-                                            .Text(p.PuntajeFinal.ToString("0.00"));
+                               
                             }
                         });
                     }

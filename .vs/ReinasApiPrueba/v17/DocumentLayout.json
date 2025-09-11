@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "D:\\ReinasApi\\ReinasApiPrueba\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|d:\\reinasapi\\reinasapiprueba\\reinasapiprueba\\models\\promediosfinalresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|solutionrelative:reinasapiprueba\\models\\promediosfinalresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -12,6 +13,17 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|d:\\reinasapi\\reinasapiprueba\\reinasapiprueba\\controllers\\participantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+      "AbsoluteMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|c:\\users\\abel marin\\desktop\\nueva carpeta\\reinasapiprueba\\reinasapiprueba\\controllers\\promedioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|solutionrelative:reinasapiprueba\\controllers\\promedioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|c:\\users\\abel marin\\desktop\\nueva carpeta\\reinasapiprueba\\reinasapiprueba\\models\\promediosfinalresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|solutionrelative:reinasapiprueba\\models\\promediosfinalresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|c:\\users\\abel marin\\desktop\\nueva carpeta\\reinasapiprueba\\reinasapiprueba\\controllers\\participantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> 352a019 (Modificado el reporte sin el puntaje)
       "RelativeMoniker": "D:0:0:{8F41DF1A-64D9-43BE-B4B6-037210D4DA84}|ReinasApiPrueba\\ReinasApiPrueba.csproj|solutionrelative:reinasapiprueba\\controllers\\participantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -81,20 +93,24 @@
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "PromediosController.cs",
               "DocumentMoniker": "D:\\ReinasApi\\ReinasApiPrueba\\ReinasApiPrueba\\Controllers\\PromediosController.cs",
               "RelativeDocumentMoniker": "ReinasApiPrueba\\Controllers\\PromediosController.cs",
               "ToolTip": "D:\\ReinasApi\\ReinasApiPrueba\\ReinasApiPrueba\\Controllers\\PromediosController.cs",
               "RelativeToolTip": "ReinasApiPrueba\\Controllers\\PromediosController.cs",
-              "ViewState": "AgIAAHABAAAAAAAAAAAowHgBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEoBAAAAAAAAAAAlwFQBAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-12T15:07:01.447Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PromediosFinalResult.cs",
               "DocumentMoniker": "D:\\ReinasApi\\ReinasApiPrueba\\ReinasApiPrueba\\Models\\PromediosFinalResult.cs",
               "RelativeDocumentMoniker": "ReinasApiPrueba\\Models\\PromediosFinalResult.cs",
